@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav a{
+    transition:ease-in-out;
+    transition-duration: 0.4s;
+    color: goldenrod;
+}
+
+.nav a:hover{
+
+    color: rgb(233, 248, 219);         
+    
+}
+
+table img{
+    
+    transition: transform 1s ease-in-out;
+} 
+
+table img:hover {
+
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+ @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        max-width: auto;
+    }
+
+    .nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table img {
+        max-width: 1000px; 
+        
+    }
+} 
+
+
+table img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+table img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px black; 
+}
+
+
+@media (max-width: 480px) {
+    
+    table {
+        display: block;
+    }
+
+    td {
+        display: block;
+        text-align: center;
+        width: 100%; 
+        margin-bottom: 20px;/
+    }
+
+    table img {
+        max-width: 100%; 
+        box-shadow: 20px 50px 10px rgba(0, 0, 0, 0.4); 
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #1a0000; 
+    color: #e6c182; 
+    text-align: center;
+    
+  }
+
+.subtitle{
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 50px;
+    
+      
+    
+}
+.title{
+    font-size: 90px;
+    font-weight: bolder;
+    text-decoration-thickness: 5px;
+    text-decoration-line:  overline;
+    margin-top: 15px;
+    
+}
+td {
+    padding: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+footer{
+    padding: 20px 0;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #1a0000; 
+    margin: 10px;
+    border-radius: 90%;
+
+}
+
+.social-icons a i{
+    font-size: 2.5rem;
+    color: goldenrod;
+    opacity: 3;
+    height: 30px;
+    width: 10px;
+}
+
+.social-icons a:hover{
+    background-color: transparent;
+    transition: 0.5s;
+    padding: auto;
+    height: 50px;
+    width: 50px;
+    
+    
+}
+
+.social-icons a:hover i{
+    color: #872020;
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+.footerbottom{
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+

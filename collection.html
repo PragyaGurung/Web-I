@@ -4,119 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collection</title>
+    <link rel="stylesheet" href="collection.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <!-- Site logo -->
-    <table>
-        <tr>
-            <td>
-                <h1>The FEMME FATALE Heels</h1>
-            </td>
-        </tr>
-    </table>
+    <!-- Site name -->
     
-    <!-- Navagation bar -->
-    <table>
-        <tr>
-            <td>
+    <h1 class="tit">The FEMME FATALE Heels</h1>
+    
+    <!-- Navigation bar -->
+    <div class="nav">
+    
+        <a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="about-us.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="collection.html">Collection</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 
-                    <a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="about-us.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="collection.html">Collection</a>&nbsp;&nbsp;&nbsp;&nbsp;
-               
-            </td>
-        </tr>
-    </table><br><br><br>
+    </div>      
 
-
-    <!-- Featured Brands  -->
-    <table>
-        <tr>
-            <h3>Featured Brands</h3>
-        </tr>
-        <tr>
-        
-            <td>
-                <a href="https://www.paciotti.com/"><img src="images/Cesare-Paciotti.png" height="40"  alt=""></a>
-            </td>
-            <td>
-                <a href="https://row.jimmychoo.com/en/home">
-                    <img src="images/jimmy_choo.png" height="40"  alt="">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.versace.com/row/en/?gclsrc=aw.ds&gclid=Cj0KCQiAx9q6BhCDARIsACwUxu5z_Mmc8uh_0ZjoWffeFfBkvpapkkirZgjT4Vk4zBOHEyKlhHUzOhsaAvt8EALw_wcB&gad_source=1&s_kwcid=AL%216089%213%21Keyword%21EXACT%21%21g%21%21versace&utm_term=versace&utm_adgroup=Exact&utm_campaignname=01_Top_Brand_Exact_INT-WW&wt_mc=_I.SEM.Google.Text.01_Top_Brand_Exact_INT-WW.Exact">
-                    <img src="images/varsace.webp" height="40"  alt="">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.ysl.com/en-us">
-                    <img src="images/YSL.png" width="40"  alt="">
-                </a>
-            </td> 
-        </tr>
-    </table>
-
+     <!-- Featured Brands -->
+     <div class="brands">
+        <h3>Featured Brands</h3>
+        <div class="brand-item">
+            <a href="https://www.paciotti.com/"><img src="images/Cesare-Paciotti.png" alt="Cesare Paciotti"></a>
+        </div>
+        <div class="brand-item">
+            <a href="https://row.jimmychoo.com/en/home"><img src="images/jimmychoo.png" alt="Jimmy Choo"></a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.versace.com/row/en/"><img src="images/varsace.webp" alt="Versace"></a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.ysl.com/en-us"><img src="images/YSL.png" alt="YSL"></a>
+        </div>
+    </div>
 
     <!-- Collection items -->
-    <table>
-        <tr>
-            <td>
-                <img src="images/1.jpg" alt="shoe" width="400">
-                <p>Rs. 2450</p>
-            </td>
-            <td>
-                <img src="images/2.jpg" alt="shoe" width="400" height="400">
-                <p>Rs.2500</p>
-            </td>
-            <td>
-                <img src="images/3.jpg" alt="shoe" width="400" height="400">
-                <p>Rs. 3500</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="images/4.jpg" alt="shoe" width="400" height="400">
-                <p>Rs. 2500</p>
-            </td>
-            <td>
-                <img src="images/5.jpg" alt="shoe" width="400" height="400">
-                <p>Rs. 4000</p>
-            </td>
-            <td>
-                <img src="images/6.jpg" alt="shoe" width="400" height="400">
-                <p>Rs. 3800</p>
-            </td>
-            <tr>
-                <td>
-                    <img src="images/7.jpg" alt="shoe" width="400" height="400">
-                    <p>Rs. 4500</p>
-                </td>
-                <td>
-                    <img src="images/8.jpg" alt="shoe" width="400" height="400">
-                    <p>Rs. 3000</p>
-                </td>
-                <td>
-                    <img src="images/9.jpg" alt="shoe" width="400" height="400">
-                    <p>Rs. 5000</p>
-                </td>
 
-            </tr>
-        </tr>
-    </table><br><br><br>
+    <div class="product-container">
+        <div class="product">
+            <img src="images/1.jpg" alt="shoe">
+            <div class="price">Rs. 2450</div>
+        </div>
+        <div class="product">
+            <img src="images/2.jpg" alt="shoe">
+            <div class="price">Rs. 2500</div>
+        </div>
+        <div class="product">
+            <img src="images/3.jpg" alt="shoe">
+            <div class="price">Rs. 3500</div>
+        </div>
+        <div class="product">
+            <img src="images/4.jpg" alt="shoe">
+            <div class="price">Rs. 2450</div>
+        </div>
+        <div class="product">
+            <img src="images/5.jpg" alt="shoe">
+            <div class="price">Rs. 2500</div>
+        </div>
+        <div class="product">
+            <img src="images/6.jpg" alt="shoe">
+            <div class="price">Rs. 3500</div>
+        </div>
+        <div class="product">
+            <img src="images/7.jpg" alt="shoe">
+            <div class="price">Rs. 2450</div>
+        </div>
+        <div class="product">
+            <img src="images/8.jpg" alt="shoe">
+            <div class="price">Rs. 2500</div>
+        </div>
+        <div class="product">
+            <img src="images/9.jpg" alt="shoe">
+            <div class="price">Rs. 3500</div>
+        </div>
+    </div>
 
 
+    <!-- footer section -->
 
-
-    <table>
-        <tr>
-            <td>
-                <h4>Email: </h4>
-            </td>
-            <td><a href="mailto:pragyagurung1221@gmail.com">pragyagurung1221@gmail.com</a></td>
-        </tr>
-    </table>
+    <footer>
+        <div class="footercontainer">
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy;2025; Designed by <span class="designer">Pragya Gurung</span></p>
+        </div>
+    </footer>
+    
+    
 </body>
 </html>

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+.about {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-spacing: 0;
+    background-color: #2c0e0e;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+    border-radius: 15px;
+}
+
+.content{
+    padding: 10px;
+    font-size: 16px;
+    color: #f3cbcb;
+    
+}
+
+.head {
+    color: #ddc2c2;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+.tit{
+    font-size: 40px;
+    font-weight: bold;    
+    text-decoration-line: overline;
+    margin-top: 15px;
+    
+}
